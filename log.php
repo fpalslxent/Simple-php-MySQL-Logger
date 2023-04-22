@@ -8,5 +8,6 @@
     $sql = "INSERT INTO `log` (`idx`, `ip`, `useragent`, `time`) VALUES (NULL, '$ip', '$ua', '$time');";
     if ($conn->query($sql) === TRUE) {
         // 완료 처리는 따로 표시 하지 않는다
+        // 완료 표시 처리를 원하면 여기에 특정 소스코드 작성
     }
 ?>
